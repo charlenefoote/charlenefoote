@@ -1,0 +1,63 @@
+[13-Jul-2016 09:13:40 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[13-Jul-2016 09:13:40 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[13-Jul-2016 09:13:40 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[13-Jul-2016 09:13:44 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[13-Jul-2016 09:13:44 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[13-Jul-2016 09:13:44 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[13-Jul-2016 09:13:47 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[13-Jul-2016 09:13:47 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[13-Jul-2016 09:13:47 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/voqel.php on line 4
+[27-Jul-2016 06:05:40 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[27-Jul-2016 06:05:40 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[27-Jul-2016 06:05:40 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[27-Jul-2016 06:05:41 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[27-Jul-2016 06:05:41 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[27-Jul-2016 06:05:41 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[27-Jul-2016 06:05:42 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[27-Jul-2016 06:05:42 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[27-Jul-2016 06:05:42 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/voqel.php on line 4
+[02-Aug-2016 22:59:04 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[02-Aug-2016 22:59:04 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[02-Aug-2016 22:59:04 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[02-Aug-2016 22:59:07 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[02-Aug-2016 22:59:07 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[02-Aug-2016 22:59:07 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[02-Aug-2016 22:59:07 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[02-Aug-2016 22:59:07 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[02-Aug-2016 22:59:07 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/voqel.php on line 4
+[10-Aug-2016 01:37:15 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[10-Aug-2016 01:37:15 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[10-Aug-2016 01:37:15 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[10-Aug-2016 01:37:15 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[10-Aug-2016 01:37:15 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[10-Aug-2016 01:37:15 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[10-Aug-2016 01:37:16 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[10-Aug-2016 01:37:16 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[10-Aug-2016 01:37:16 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/voqel.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[11-Aug-2016 10:20:58 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/voqel.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[31-Aug-2016 22:34:02 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/voqel.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/keep-st-pete-local.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/ro-style-salon.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(img/arrow.svg): failed to open stream: No such file or directory in /home3/charlene/public_html/work/voqel.php on line 4
+[16-Sep-2016 17:36:46 America/Chicago] PHP Warning:  include(): Failed opening 'img/arrow.svg' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/charlene/public_html/work/voqel.php on line 4

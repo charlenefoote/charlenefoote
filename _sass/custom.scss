@@ -1,0 +1,218 @@
+/*********************
+GENERAL STYLES
+*********************/
+
+body {
+	height: auto;
+	font-family: $ckf-serif;
+	color: $white;
+	background-color: $white;
+	background-image: url(../img/charlene-product-designer.jpg);
+  	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-position: -15% bottom;
+	background-size: 730px;
+	background-attachment: fixed;
+	font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+
+
+	@media screen and (max-width: 1170px) {
+		background-size: 60%;
+		background-position: -35% bottom;
+	}
+
+	@media screen and (max-width: 768px) {
+		background-size: 730px;
+		background-position: -280px bottom;
+	}
+
+	@media screen and (max-width: 750px) {
+		background-size: 60%;
+		background-position: -100px bottom;
+	}
+
+	@media screen and (max-width: 375px) {
+		background-size: 500px;
+		background-position: -50px bottom;
+	}
+}
+
+a {
+	color: #139046;
+	text-decoration: none;
+	@include transition(all .25s ease);
+
+	&:hover {
+		color: $white;
+	}
+}
+
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+
+h1 {
+	font-family: $ckf-sans;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: $ckf-sans;
+	font-weight: 900;
+}
+
+/*********************
+NAV
+*********************/
+
+nav {
+	width: auto;
+	padding: 2em 0;
+	border-bottom: 2px solid $white;
+	h1 a {
+		font-size: .5em;
+		text-transform: uppercase;
+		color: $white;
+		letter-spacing: .075em;
+	}
+}
+
+/*********************
+LAYOUT STYLES
+*********************/
+
+#site-container {
+	background: rgba( $aqua, .8 );
+	height: 94vh;
+	margin: 3vh;
+}
+
+#content-container {
+	display: block;
+	width: 75%;
+	height: 100vh;
+  margin: 0 auto;
+
+	@media screen and (max-width: 768px) {
+		width: 55%;
+	}
+
+	@media screen and (max-width: 375px) {
+	    top: 5%;
+	}
+}
+
+#about-container {
+
+	margin-left: 18em;
+	bottom: 0;
+
+	h2 {
+		font-size: 3em;
+		margin: 0 0 .35em;
+
+		@media screen and (max-width: 550px) {
+			font-size: 2em;
+		}
+
+	}
+
+	p {
+		font-size: 1.8em;
+		margin: 0;
+		letter-spacing: .02em;
+		font-weight: 400;
+
+		@media screen and (max-width: 550px) {
+			font-size: 1.25em;
+		}
+
+		@media screen and (max-width: 375px) {
+			font-size: 1.5em;
+		}
+
+	}
+
+}
+
+#contact-container {
+	margin-top: 10em;
+
+
+	h3 {
+		float: left;
+		font-family: $ckf-sans;
+		font-weight: 900;
+	}
+
+	ul#social-icons {
+
+		margin: .5em 0 0 1em;
+		float: left;
+
+		@media screen and (max-width: 540px) {
+			margin: .5em 0 0 0;
+			clear: both;
+		}
+
+		li {
+			float: left;
+			margin: 0 18px 0 0;
+
+			&:last-child {
+				margin-right: 0;
+
+			}
+
+			a{
+				width: 32px;
+				height: 32px;
+				display: block;
+				text-indent: -9999px;
+				background-size: cover;
+				opacity: 1;
+				@include transition(all .25s ease);
+
+				&:hover {
+					opacity: .8;
+				}
+
+			}
+
+		}
+
+		li.facebook a{
+			background-image: url(../img/social-icon-facebook.svg);
+		}
+
+		li.dribbble a{
+			background-image: url(../img/social-icon-dribbble.svg);
+		}
+
+		li.twitter a{
+			background-image: url(../img/social-icon-twitter.svg);
+		}
+
+		li.pinterest a{
+			background-image: url(../img/social-icon-pinterest.svg);
+		}
+
+		li.linkedin a{
+			background-image: url(../img/social-icon-linkedin.svg);
+		}
+
+		li.email a{
+			background-image: url(../img/social-icon-email.svg);
+		}
+
+	}
+
+}
+
+
+/*********************
+FOOTER STYLES
+*********************/
