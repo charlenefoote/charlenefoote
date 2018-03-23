@@ -6,13 +6,14 @@ title: intro page
 
 
 
-		<div id="about-container">
+	<div id="about-container">
 
-			<h2 class="site-title">Yo! I'm Charlene, a designer of things and stuff.</h1>
+		<h2 class="site-title">Yo! I'm Charlene, a designer of things and stuff.</h1>
 
-			<p>I create digital products and experiences that are meaningful and intuitive. Currently, I'm a product designer at <a href="https://moovel-group.com/en" target="_blank">moovel</a> and a mentor at <a href="http://trydesignlab.com" target="_blank">DesignLab.</a> I was previously a product designers at <a href="http://getaround.com" target="_blank">Getaround.</a></p>
+		<p>I create digital products and experiences that are meaningful and intuitive. Currently, I'm a product designer at <a href="https://moovel-group.com/en" target="_blank">moovel</a> and a mentor at <a href="http://trydesignlab.com" target="_blank">DesignLab.</a> I was previously a product designers at <a href="http://getaround.com" target="_blank">Getaround.</a></p>
 
-		</div>
+	</div>
+	
     <div id="contact-container">
 
       <h3>Let's get digital. Digital.</h3>
@@ -26,6 +27,44 @@ title: intro page
       </ul>
     </div>
 
+	<div id="overlay" class="overlay">
+		<div class="info">
+			<h2>Demo interactions</h2>
+			<span class="info-drag">Drag Sliders</span>
+			<span class="info-keys">Use Arrows</span>
+			<span class="info-switch">Switch view</span>
+			<button>Got it!</button>
+		</div>
+	</div>
 
+	<div id="slideshow" class="dragslider">
+		<section class="img-dragger img-dragger-large dragdealer">
+			<div class="handle">
+				<div class="slide" data-content="content-1">
+					<div class="img-wrap"><img src="" alt="img1"/></div>
+					<!-- <h2 class="site-title">Yo! I'm Charlene, a designer of things and stuff.</h1> -->
+					<button class="content-switch">Read more</button>
+				</div>
+				<div class="slide" data-content="content-2">
+					<div class="img-wrap"><img src="" alt="img2"/></div>
+					<!-- <h2 class="site-title">Yo! I'm Charlene, a designer of things and stuff.</h1> -->
+					<button class="content-switch">Read more</button>
+				</div>
+			</div>
+		</section><!-- /img-dragger-->
+			<!-- Content section -->
+			<section class="pages">
+				<div class="content" data-content="content-1">
+					<p></p>
+					<p class="related"></p>
+				</div>
+				<div class="content" data-content="content-2">
+					<h2></h2>
+					<p></p>
+					<p class="related"></p>
+				</div>
+			</div>
+		</section>
+	</div>
 
 {% include footer.html %}

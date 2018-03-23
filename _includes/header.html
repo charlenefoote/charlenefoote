@@ -10,8 +10,11 @@
 	<script src="https://use.typekit.net/hhp8xlt.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+	<link rel="stylesheet" type="text/css" media="all" href="{{ '/assets/css/dragdealer.css' | prepend: site.baseurl }}" />
+	<link rel="stylesheet" type="text/css" media="all" href="{{ '/assets/css/component.css' | prepend: site.baseurl }}" />
 	<link rel="stylesheet" type="text/css" media="all" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}" />
 
+	<script src="{{ '/js/modernizr.custom.js' | prepend: site.baseurl }}"></script>
 </head>
 
 <body>
@@ -19,6 +22,10 @@
   <div id="site-container">
 
     <div id="content-container">
+
+		<header id="header">
+			<button class="slider-switch">Switch view</button>
+		</header>
 
         <nav>
           <h1><a href="/">Charlene Foote</a></h1>
