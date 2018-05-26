@@ -131,7 +131,6 @@ LAYOUT
 
 		.column {
 			width: 50%;
-			position: relative;
 		}
 
 		.single-column {
@@ -350,10 +349,11 @@ CUSTOM CONTENT STYLES
 }
 
 .prototype {
+	position: relative;
 	img {
 		left: -12.75em;
 		position: absolute;
-		top: 7.5em;
+		top: -5.4em;
 		width: 382px;
 		z-index: 1;
 	}
