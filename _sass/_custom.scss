@@ -11,8 +11,9 @@ body {
 
 a {
 	text-decoration: none;
-	font-weight: 400;
-	color: $primary-blang;
+		font-family: $ckf-sans;
+		font-weight: 900;
+		color: $primary-blang;
 	@include transition(all .25s ease);
 }
 
@@ -20,27 +21,41 @@ a.hoverbg {
 	line-height: 2;
 	font-size: 1em;
 	position: relative;
-	padding: .3125em .5em;
+	padding: 1em 1em;
 
 	&:after {
-		background: rgba(66, 80, 87, 0.1);
+		background: $super-light-gray;
 		content: '';
 		height: 100%;
 		left: 0;
 		position: absolute;
 		top: 0;
 		width: 0;
+		z-index: -9999;
 		@include transition(width .25s ease);
 	}
 
 	&:hover:after {
-		width: 36%;
+		width: 40%;
 	}
 }
 
 
+.bgaqua {
+	background: #00B7BF;
+}
+
+.bglight {
+	background: $light-gray
+}
+
+.bgsuperlight {
+	background: $super-light-gray
+}
+
+
 /******************************************************************
-H1, H2, H3, H4, H5 STYLES
+TEXT STYLES
 ******************************************************************/
 
 h1 {
@@ -49,18 +64,49 @@ h1 {
 }
 
 h2 {
-	font-family: $ckf-sans;
-	font-weight: 900;
 	color: $gray;
+	font-family: $ckf-sans;
 	font-size: 7em;
+	font-weight: 900;
+	margin-top: 0;
+}
+
+h3 {
+	color: $gray;
+	font-family: $ckf-sans;
+	font-size: 4em;
+	font-weight: 900;
+}
+
+h3 {
+	color: $gray;
+	font-family: $ckf-sans;
+	font-size: 4em;
+	font-weight: 900;
+	margin: 0;
+}
+
+h4 {
+	color: $light-gray;
+	font-family: $ckf-sans;
+	font-size: 1.75em;
+	letter-spacing: .1em;
+	margin-top: 0;
+	text-transform: uppercase;
 }
 
 p {
-	color: #425057;
-    font-size: 3em;
+		color: $gray;
+    font-size: 2em;
     font-weight: 300;
     letter-spacing: .02em;
-    line-height: 1.5em;
+    line-height: 1.75em;
+		margin-top: 0;
+
+		a {
+			font-family: $ckf-serif;
+			font-weight: 400;
+		}
 }
 
 /*********************
@@ -81,11 +127,21 @@ LAYOUT
 
 .row {
     display: flex;
-	flex-flow: row;
-}
+		flex-flow: row;
 
-.column {
-	width: 50%;
+		.column {
+			width: 50%;
+			position: relative;
+		}
+
+		.single-column {
+			padding-left: 50%;
+		}
+
+		&.copy-row {
+			margin: 8em 0;
+		}
+
 }
 
 main.row {
@@ -115,11 +171,6 @@ nav {
 		text-transform: uppercase;
 	}
 
-	a {
-		font-family: $ckf-sans;
-		font-weight: 900;
-		color: $primary-blang;
-	}
 
 	.menu {
 		margin: 0;
@@ -127,14 +178,18 @@ nav {
 
 		li {
 			display: inline-block;
-			padding-left: 2em;
 			font-size: 2em;
+			padding-left: 2em;
+			a {
+				font-family: $ckf-sans;
+				font-weight: 700;
+			}
 		}
 	}
 }
 
 /*********************
-CONTENT CONTAINERS
+CUSTOM CONTENT STYLES
 *********************/
 
 #synopsis-container {
@@ -147,10 +202,12 @@ CONTENT CONTAINERS
 	h2 {
 		margin: 2em 0 0 0;
     position: relative;
-    min-width: 60vw;
+    min-width: 70vw;
 	}
 
 	p {
+		font-size: 3em;
+		line-height: 1.5em;
     margin: 30px 60px 0 0;
 	}
 
@@ -178,17 +235,51 @@ CONTENT CONTAINERS
 	}
 }
 
-#case-studies-container {
-	font-size: 3em;
+.img-full-container {
+	width: 100%;
 
+	img {
+			width: 100%;
+	}
+}
+
+.title-column {
+	h2 {
+		margin: 0;
+	}
 	p {
-		font-size: .75em;
+		font-size: 2.5em;
+	}
+}
+
+.copy-row {
+	p {
+		margin-bottom: 1.5em;
+		&:last-child {
+			margin-bottom: 0
+		}
+	}
+	li {
+		font-size: 2em;
+		font-weight: 300;
+		letter-spacing: .02em;
+		line-height: 1.75em;
+		margin-top: 0;
+
+		&:before {
+			color: $light-gray;
+			content: "\25A0";
+			font-size: .75em;
+			padding-right: 1em;
+  		position: relative;
+  		top: -.15em;
+		}
 	}
 }
 
 .w50 {
 	align-items: center;
-	height: 100vh;
+	height: 90vh;
 	display: flex;
 	flex: 1;
 	position: relative;
@@ -196,10 +287,9 @@ CONTENT CONTAINERS
 
 .grid-img {
 	height: auto;
-	max-height: 96%;
+	max-height: 120%;
 	position: absolute;
 	width: auto;
-	max-width: 96%;
 }
 
 .grid-row:nth-of-type(2n+1) {
@@ -210,9 +300,8 @@ CONTENT CONTAINERS
 	}
 
 	.grid-img {
-		box-shadow: 10px -10px 30px rgba(100,100,100,0.2);
-		right: -4vh;
-		top: -4vh;
+		right: -8vh;
+		top: -15vh;
 	}
 }
 
@@ -224,15 +313,57 @@ CONTENT CONTAINERS
 	}
 
 	.grid-img {
-		bottom: -4vh;
-		box-shadow: -10px 10px 30px rgba(100,100,100,0.2);
-		left: -4vh;
+		bottom: -16vh;
+		left: -21vh;
 		z-index: 1;
 	}
 }
 
-.bgaqua {
-	background: #00B7BF;
+
+.grid-content {
+	p {
+		margin-bottom: 2em;
+	}
+
+	a.hoverbg {
+		font-size: 2em;
+		line-height: 2;
+		position: relative;
+		padding: 1em 1.5em;
+
+		&:after {
+			background: $super-light-gray;
+			content: '';
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 3em;
+			z-index: -9999;
+			@include transition(width .25s ease);
+		}
+
+		&:hover:after {
+			width: 100%;
+		}
+	}
+}
+
+.prototype {
+	img {
+		left: -12.75em;
+		position: absolute;
+		top: 7.5em;
+		width: 382px;
+		z-index: 1;
+	}
+
+ 	video {
+		left: 1.75em;
+		position: relative;
+		top: 2em;
+		z-index: 0;
+	}
 }
 
 /*********************
