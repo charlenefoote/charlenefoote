@@ -1,0 +1,95 @@
+---
+title: Cancel Trip
+permalink: cancel-trip
+---
+
+{% include header.html %}
+
+<div class="img-full-container bglight">
+		<img src="{{ '/assets/img/cancel-trip-hero.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="column overview title-column">
+		<h2>Cancel Trip</h2>
+		<p>iOS + Android</p>.
+	</div>
+	<div class="column">
+		<p>At Getaround I led the design of Cancel Trip, a way for renters to cancel their car rental through the iOS app. I was responsible for UX research, wireframing, copywriting, ideating, visual design, prototyping, and user testing.</p>
+
+		<h4>Understanding the Problem</h4>
+		<p>Before this feature was introduced, renters had to call or email Getaround customer service in order to cancel a trip–both of which require waiting periods and cause friction. This manual process was the source of a significant amount of work for the customer service team. Trip cancellations were the number one reason for calls made to customer service.</p>
+
+		<p>By working with the PM and the customer support team, I gathered data about when and why these cancellations were happening. This would later inform business rules and logic around the cancellation policy.</p>
+
+		<h4>Constraints</h4>
+		<p>In order to truly bring down customer service call volume, we would need to consider 1) renters and owners 2) web and mobile 3) modifying or cancelling a trip. Because of resourcing, this project was scoped as Phase 1 of a multiphase approach.</p>
+		<p>
+
+		<h4>Objectives</h4>
+		<p>After defining the problem, the PM, the customer service lead, and I agreed on a set of objectives:</p>
+		<ul>
+			<li>Allow the renter to easily cancel trips through the iOS app.</li>
+			<li>Ensure the collection of appropriate cancellation fees.</li>
+			<li>Bring down customer service call volume down by 30% for Phase 1.</li>
+		</ul>
+	</div>
+</div>
+
+<div class="img-full-container">
+	<img src="{{ '/assets/img/cancel-trip-userflow.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="column title-column">
+		<h3>Exploration</h3>
+		<p>Brainstorming and ideating</p>
+	</div>
+	<div class="column">
+		<h4>User Flows</h4>
+		<p>I mapped out a task flow of a user's journey from before it trip started until after to understand how the cancellation policy would affect users and map out various scenarios.</p>
+		<h4>Scenarios:</h4>
+		<ul>
+			<li>The renter wants to cancel their trip 24hrs or more before it starts OR less than an hour after they booked it.</li>
+			<li>The renter cancels their trip but is refunded less than they were expecting. They'd like to understand why and dispute it.</li>
+			<li>The renter wants to cancel their trip less than 24hrs before it starts OR longer than an hour after they booked it.</li>
+			<li>The renter wants to cancel their trip after it has started.</li>
+		</ul>
+	</div>
+</div>
+
+<div class="img-full-container bgsuperlight">
+	<img src="{{ '/assets/img/cancel-trip-wireframes.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="single-column">
+
+	<h4>Wireframes</h4>
+	<p>Then I created wireframes.</p>
+</div>
+</div>
+
+<div class="img-full-container bgsuperlight">
+	<img src="{{ '/assets/img/app-tour-iterations.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="column title-column">
+		<h3>Outcome</h3>
+		<p>Iterating, Prototyping and the Conclusion</p>
+	</div>
+	<div class="column">
+		<h4>Testing and Iterating</h4>
+		<p>The first several iterations focused on creating a tour that felt light and contextual. I explored different ways to introduce the new look of the ticket and the changes to navigation. This also included copy explorations to find the right words to inform the user of the value of the redesign and to reassure them.</p>
+		<p>Further iterations were necessary to test usability. Because users could find themselves in the tour with the intention of purchasing and/or activating a ticket, it was important to understand how quickly and accurately users could swipe through or leave the tour. I built several prototypes to test and challenge my assumptions of how users would move through it.</p>
+		<h4>Measuring Success</h4>
+		<p>Once the app launches, we can track how quickly users tap the 'Skip' button. In addition to analytics, we will be conducting contextual interviews and monitoring app store reviews that could reveal general sentiment around the tour.</p>
+		<h4>Learnings</h4>
+		<p>This tour was not considered and designed alongside the first-time user onboarding experience. This work was primarily focused on existing users. The new user onboarding experience was designed at the beginning of the app redesign. This caused a gap in the experience for an existing user who is logged out and treated as a new user.</p>
+	</div>
+</div>
+
+
+
+{% include footer.html %}

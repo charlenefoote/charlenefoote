@@ -45,6 +45,10 @@ a.hoverbg {
 	background: #00B7BF;
 }
 
+.bgpurple {
+	background: #c3c;
+}
+
 .bglight {
 	background: $light-gray
 }
@@ -317,11 +321,13 @@ CUSTOM CONTENT STYLES
 		letter-spacing: .02em;
 		line-height: 1.75em;
 		margin-top: 0;
+    padding-left: 1em;
 
 		&:before {
 			color: $light-gray;
 			content: "\25A0";
 			font-size: .75em;
+			margin-left: -1.65em;
 			padding-right: 1em;
   		position: relative;
   		top: -.15em;
