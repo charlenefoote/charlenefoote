@@ -113,6 +113,10 @@ p {
 		}
 }
 
+.center {
+	text-align: center;
+}
+
 /*********************
 LAYOUT
 *********************/
@@ -182,6 +186,19 @@ NAV
 
 #main-menu {
 	line-height: 13vh;
+
+	.hoverbg {
+		padding: .5em 1em;
+
+		&:hover:after {
+			width: 34px;
+		}
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+	}
 
 	@media (max-width: $mqA) {
 		line-height: 6vh;
@@ -291,9 +308,27 @@ CUSTOM CONTENT STYLES
 	}
 }
 
+.text-intro {
+	padding: 8em 25%;
+	p {
+		font-size: 3em;
+	}
+
+&.full-width {
+	padding: 8em 0;
+}
+
+}
+
 .img-full-container {
 	width: 100%;
 
+	img {
+			width: 100%;
+	}
+}
+
+.img-half-container {
 	img {
 			width: 100%;
 	}
