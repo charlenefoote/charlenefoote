@@ -123,7 +123,6 @@ LAYOUT
 
 .page-wrap {
 		font-family: $ckf-serif;
-		-webkit-font-smoothing: antialiased;
 		max-width: 142em;
 		margin: 0 auto;
 		padding: 0 4vh;
@@ -292,7 +291,7 @@ CUSTOM CONTENT STYLES
 }
 
 #about-container {
-	padding: 0;
+	padding: 0 0 8em;
 	position: relative;
 
 	.column:first-child {
@@ -389,6 +388,12 @@ CUSTOM CONTENT STYLES
 	width: auto;
 	max-width: 100%;
 
+	&.no-float {
+		height: auto;
+		position: relative;
+		width: 100%;
+	}
+
 	@media (min-width: $mqA) {
 		max-width: none;
 	}
@@ -414,8 +419,27 @@ CUSTOM CONTENT STYLES
 		top: 0;
 
 		@media (min-width: $mqA) {
-			right: -8vh;
-			top: -15vh;
+			right: -9vh;
+			top: -14vh;
+		}
+	}
+}
+
+.grid-row:nth-of-type(3) {
+	.w50 {
+		.grid-img {
+			max-height: 90%;
+			right: -13vh;
+			top: 7vh;
+		}
+	}
+}
+
+.grid-row:nth-of-type(4) {
+	.w50 {
+		height: 44vh;
+		@media (min-width: $mqA) {
+			height: 70vh;
 		}
 	}
 }
@@ -439,6 +463,10 @@ CUSTOM CONTENT STYLES
 		@media (min-width: $mqA) {
 			bottom: -16vh;
 			left: -21vh;
+			&.no-float {
+				bottom: 0;
+		    left: 0;
+			}
 		}
 	}
 }
@@ -501,11 +529,11 @@ FOOTER STYLES
 *********************/
 
 footer {
-	margin-top: 6em;
 
 	ul#social-icons {
 		border-top: $super-light-gray .25em solid;
 		justify-content: center;
+		margin-top: 0;
 		padding: 6em 0;
 
 		@media (max-width: $mqA) {
