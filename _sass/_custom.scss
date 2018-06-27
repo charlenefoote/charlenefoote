@@ -130,6 +130,10 @@ LAYOUT
 		display: flex;
 		flex: 1;
 		flex-direction: column;
+
+		@media (max-width: $mqA) {
+			overflow: hidden;
+		}
 }
 
 .row {
@@ -202,6 +206,13 @@ NAV
 	@media (max-width: $mqA) {
 		line-height: 6vh;
 		flex-flow: column;
+
+		.hoverbg {
+			padding: .5em 1em;
+			&:last-child {
+				padding: .5em 1em;
+			}
+		}
 
 		.column {
 			flex-flow: row;
@@ -294,12 +305,14 @@ CUSTOM CONTENT STYLES
 	padding: 0 0 8em;
 	position: relative;
 
-	.column:first-child {
-		padding-right: 6em;
-	}
+	@media (min-width: $mqA) {
+		.column:first-child {
+			padding-right: 6em;
+		}
 
-	.column:last-child {
-		padding-left: 6em;
+		.column:last-child {
+			padding-left: 6em;
+		}
 	}
 
 	p {
@@ -309,6 +322,11 @@ CUSTOM CONTENT STYLES
 
 .text-intro {
 	padding: 8em 25%;
+
+	@media (max-width: $mqA) {
+		padding: 8em 10%;
+	}
+
 	p {
 		font-size: 3em;
 	}
@@ -338,6 +356,15 @@ CUSTOM CONTENT STYLES
 	h2 {
 		margin: 0;
 	}
+
+	h3 {
+		margin-bottom: 1em;
+
+		@media (min-width: $mqA) {
+			margin-bottom: 0;
+		}
+	}
+
 	p {
 		font-size: 2.5em;
 	}
@@ -371,13 +398,16 @@ CUSTOM CONTENT STYLES
 }
 
 .w50 {
-	align-items: center;
-	height: 64vh;
+	align-items: flex-end;
+	height: 48vh;
 	display: flex;
 	flex: 1;
+	margin: 3rem 0;
 	position: relative;
 
 	@media (min-width: $mqA) {
+		align-items: center;
+		margin: 0;
 		height: 90vh;
 	}
 }
@@ -416,8 +446,8 @@ CUSTOM CONTENT STYLES
 	}
 
 	.grid-img {
-		right: 0;
-		top: 0;
+		right: 20px;
+		top: -1vh;
 
 		@media (min-width: $mqA) {
 			right: -9vh;
@@ -428,10 +458,18 @@ CUSTOM CONTENT STYLES
 
 .grid-row:nth-of-type(3) {
 	.w50 {
+
 		.grid-img {
-			max-height: 90%;
-			right: -13vh;
-			top: 7vh;
+			right: 0;
+			top: 10vh;
+		}
+
+		@media (min-width: $mqA) {
+			.grid-img {
+				max-height: 90%;
+				right: -13vh;
+				top: 7vh;
+			}
 		}
 	}
 }
@@ -439,8 +477,19 @@ CUSTOM CONTENT STYLES
 .grid-row:nth-of-type(4) {
 	.w50 {
 		height: 44vh;
+
+		.grid-img {
+			bottom: 11vh;
+			left: 0;
+		}
+
 		@media (min-width: $mqA) {
 			height: 70vh;
+
+			.grid-img {
+				bottom: -14vh;
+				left: -21vh;
+			}
 		}
 	}
 }
@@ -457,8 +506,8 @@ CUSTOM CONTENT STYLES
 	}
 
 	.grid-img {
-		bottom: 0;
-		left: 0;
+		bottom: -1.5vh;
+		left: -30px;
 		z-index: 1;
 
 		@media (min-width: $mqA) {
@@ -510,18 +559,27 @@ CUSTOM CONTENT STYLES
 	max-width: none;
 
 	img {
-		left: -12.75em;
+		left: -10.25em;
 		position: absolute;
 		top: -5.4em;
 		width: 382px;
 		z-index: 2;
+
+		@media (min-width: $mqA) {
+			left: -12.75em;
+		}
 	}
 
  	video {
-		left: 1.75em;
+		left: 4.25em;
 		position: relative;
-		top: 2em;
+		top: 1.9375em;
 		z-index: -1;
+
+		@media (min-width: $mqA) {
+			left: 1.75em;
+			top: 2em;
+		}
 	}
 }
 
