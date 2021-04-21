@@ -475,37 +475,18 @@ CUSTOM CONTENT STYLES
 
 .grid-row:nth-of-type(3) {
 	.w50 {
-
-		.grid-img {
-			right: 0;
-			top: 10vh;
-		}
-
-		@media (min-width: $mqA) {
-			.grid-img {
-				max-height: 90%;
-				right: -13vh;
-				top: 7vh;
-			}
-		}
-	}
-}
-
-.grid-row:nth-of-type(4) {
-	.w50 {
 		height: 44vh;
 
 		.grid-img {
 			bottom: 11vh;
-			left: 0;
+			right: 0;
 		}
 
 		@media (min-width: $mqA) {
 			height: 70vh;
 
 			.grid-img {
-				bottom: -14vh;
-				left: -21vh;
+				top: 0;
 			}
 		}
 	}
