@@ -1,0 +1,145 @@
+---
+title: Onboarding Existing Users
+permalink: islands
+---
+
+{% include header.html %}
+
+<div class="img-full-container bgsuperlight">
+		<img src="{{ '/assets/img/islands-project-hero.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="column overview title-column">
+		<h2>Sketching Islands</h2>
+		<p>Remix Streets | Desktop Web</p>.
+	</div>
+	<div class="column">
+		<h4>Overview</h4>
+		<p>Remix Streets allows transportation planners to quickly sketch new street design concepts in order to move early-stage transportation projects forward.</p>
+		<p>This user experience gives users the ability to more accurately sketch a street feature called ‘islands’. I was involved in almost every stage–from user research, problem definition, UI/UX/interaction design, and user testing along with a PM and 3 engineers.
+		</p>
+		<h4>Understanding the Problem</h4>
+		<p>Transporation planners need to be able to communicate street concept designs. While Remix Streets is a visual storytelling tool for transportation planners, there were clear limitations in what they could sketch–one limitation being islands. </p>
+	</div>
+	</div>
+<div class="img-full-container bgsuperlight">
+	<img src="{{ '/assets/img/island-examples.png' | prepend: site.baseurl }}" />
+</div>
+<p class="caption">Image source: <a href="https://nacto.org" target="_parent">nacto.org</a></p>
+
+<div class="row copy-row">
+	<div class="single-column">
+		<p>An island is an area between traffic lanes used for control of traffic movements. They are located between and are generally shaped by the travel lanes that move around them. In some cases, they're very uniform, geometric, and are fairly symmetrical. But they can also be pretty organic in shape.</p>
+	</div>
+</div>
+<div class="img-full-container bgsuperlight">
+	photo of current product limitations
+</div>
+<div class="row copy-row">
+	<div class="single-column">
+			<p>In the existing experience users could sketch some islands, but there were a few major problems with that:</p>
+			<ol>
+				<li>Users could choose from a few templated island and drop them onto their sketch using a feature called Street Elements, but they weren't easy to find and they didn't cover all of the basic island types.</li>
+				<li>Users could resize these templated islands, but it didn't allow users to edit the shape, the fill color, or the lane line paint color.</li>
+				<li>As a workaround, users could configure streets in a way that created negative space where an island would exist and then edit that space to appear as an island. But that required a lot effort and was often inaccurate.</li>
+			</ol>
+			<p>The lack of customization, hacky workarounds, and the level effort it required to sketch a presentable island left users feeling annoyed, unsatisfied, and unconfident. It ultimately hinders their ability to communicate and share their street concepts.</p>
+			<h4>Defining Goals and Measuring Success</h4>
+			<p>Our goal was to give users the ability to easily sketch islands with enough accuracy to successfully communicate their ideas which increases user value leading to customer retention and growth.
+				:</p>
+			<ul>
+				<li>&lt; 20% of monthly active projects contain at least 1 edited island</li>
+				<li>&lt; 80% of users respond positively to a usability survey about this new UX</li>
+			</ul>
+
+	</div>
+</div>
+
+<div class="img-full-container bgsuperlight">
+ <img src="{{ '/assets/img/islands-project-userflow.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="column title-column">
+		<h3>Scoping the MVP</h3>
+		<p>Exploring in low-fidelity for quick validation</p>
+	</div>
+	<div class="column">
+		<p>After gathering user feedback and running a light weight design workshop, I created a basic userflow to establish high-level user requirements which divided exploration into 3 areas: island creation, shape editing, and color/style editing.</p>
+
+		<h4>Island creation</h4>
+		<p>To begin sketching an island, the users first step in Remix would be to create that island. But I needed to understand a few things first:
+			- Users want to be able to sketch a variety of islands
+			- Where are do they want to sketch them?</p>
+		</div>
+	</div>
+
+	<div class="img-full-container bgsuperlight">
+	 <img src="{{ '/assets/img/island-project-drag-drop.png' | prepend: site.baseurl }}" />
+	</div>
+
+	<div class="row copy-row">
+		<div class="single-column">
+		<p><b>1. Drag and drop an island.</b> This concept allows users to drag and drop a basic set of island shapes anywhere on their sketch. Once they've placed the shape, the user can stretch, resize, or rotate it before they begin to make more granular edits to the shape.</p>
+		<p>With the right set of shapes, it offers the user a good jumping off point to sketch most islands. Also, we assumed this experience would be familiar to most users since it's basically the same as Street Elements.</p>
+	</div>
+</div>
+
+<div class="img-full-container bgsuperlight">
+ <img src="{{ '/assets/img/island-project-drag-drop.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="single-column">
+		<p><b>2. Draw an island.</b>
+		To give additional control, we could allow them to create a shape by drawing a path by clicking to create a series of points and lines (much like a vector pen tool). After they've drawn the basic shape of the island, they'd be able to make more granular edits with the same functionality they use to edit street lanes.
+		</p>
+		<p>The upside: we could save some engineering time by reusing preexisting drawing functionality, though we'd need to make some changes. The downside: this isn't an ideal experience for users drawing really curvy islands like footballs or traffic circles.</p>
+	</div>
+</div>
+
+<div class="img-full-container bgsuperlight">
+ <img src="{{ '/assets/img/island-project-drag-drop.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="single-column">
+		<p><b>3. Create an island from negative space.</b> The user can hover and click on any enclosed negative space to create an island. Once they've instantiated the island, they could then make more granular edits to the shape with the same functionality they use to edit street lanes.</p>
+		<p>This concept makes the user experience looks fast and easy. But it assumes that the negative space exists or is accurately rendered–neither of which was a given.</p>
+		<h4>A minimum viable product</h4>
+		<p>As a team we discussed these concepts and agreed that the drag and drop experience should be included in the MVP. It gave the user the best starting point for sketching an island.</li>
+			<li>It didn't require .</li>
+	</div>
+</div>
+
+<div class="img-full-container bgsuperlight">
+	<img src="{{ '/assets/img/app-tour-iterations.png' | prepend: site.baseurl }}" />
+</div>
+
+<div class="row copy-row">
+	<div class="column title-column">
+		<h3>Outcome</h3>
+		<p>Iterating, Prototyping and the Conclusion</p>
+		<div class="prototype">
+			<img src="{{ '/assets/img/white-device.png' | prepend: site.baseurl }}"  />
+			<video width="225" height="auto" autoplay="autoplay" loop>
+			  <source src="{{ '/assets/video/app-tour-prototype.mp4' | prepend: site.baseurl }}" type="video/mp4">
+					Your browser does not support the video tag.
+			</video>
+		</div>
+	</div>
+	<div class="column">
+		<h4>Testing and Iterating</h4>
+		<p>The first several iterations focused on creating a tour that felt light and contextual. I explored different ways to introduce the new look of the ticket and the changes to navigation. This also included copy explorations to find the right words to inform the user of the value of the redesign and to reassure them.</p>
+		<p>Further iterations were necessary to test usability. Because users could find themselves in the tour with the intention of purchasing and/or activating a ticket, it was important to understand how quickly and accurately users could swipe through or leave the tour. I built several prototypes to test and challenge my assumptions of how users would move through it.</p>
+		<h4>Measuring Success</h4>
+		<p>I will be tracking how quickly users tap the 'Skip' button. In addition to analytics, we will be conducting contextual interviews and monitoring app store reviews that could reveal general sentiment around the tour.</p>
+		<h4>Learnings</h4>
+		<p>The initial project was kicked off without consideration for our existing users. The new user onboarding experience was designed at the beginning of the app redesign. This caused a gap in the experience for an existing user who is logged out and treated as a new user.</p>
+	</div>
+</div>
+
+
+
+{% include footer.html %}
