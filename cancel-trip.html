@@ -16,23 +16,23 @@ permalink: cancel-trip
 	</div>
 	<div class="column">
 		<h4>Overview</h4>
-		<p>Getaround is a carsharing platform where owners rent out their cars to people nearby. It allows renters to instantly rent cars by the hour or even daily.
+		<p>Getaround is a carsharing platform where car owners rent out their cars to people nearby. It allows renters to instantly rent cars by the hour or even daily.
 		</p>
 		<p>As a Product Designer at Getaround, I led the design of Cancel Trip feature, a way for renters to cancel their car rental through the native mobile app. I partnered with the Product Manager on UX research and I was responsible for wireframing, copywriting, ideating, testing, and UI design.</p>
 
 		<h4>Understanding the Problem</h4>
 		<p>Before this feature was introduced, renters had to call or email Getaround customer support in order to cancel a trip&mdash;both of which require waiting periods and cause friction. This manual process was the source of a significant amount of work for the customer support team. Trip cancellations were the number one reason for calls made to customer support.</p>
 
-		<!--h4>Constraints</h4>
-		<p>In order to truly bring down customer support call volume, we would need to consider 1) car renters and car owners 2) web and mobile 3) cancelling AND modifying a trip. Because of resourcing, this project was scoped as Phase 1 of a multiphase approach.</p-->
+		<h4>Constraints</h4>
+		<p>In order to bring down customer support call volume caused by cancellations, we would need to consider 1) how both car renters and car owners cancel trips 2) updates to both the web and mobile experiences 3) cancelling AND modifying a trip. In order to quickly ship a solution with the most impact, we scoped this into phases and Phase 1 would focus on addressing the renter experience in the mobile app.</p>
 
 		<h4>Objectives</h4>
 		<p>After defining the problem, the PM, the customer support lead, and I agreed on a set of objectives:</p>
 		<ul>
 			<li>Allow the renter to easily cancel trips through the iOS app.</li>
-			<li>Give the renter clear information about cancellation policies and fees.</li>
-			<li>Ensure the collection of appropriate cancellation fees.</li>
-			<li>Success metric: bring down customer support call volume down a third (Phase 1).</li>
+			<li>Give the renter clear information about Getaround's cancellation policy and refund amounts.</li>
+			<li>Ensure the collection of appropriate cancellation fees to keep a healthy balance of supply (cars) and demand (renters).</li>
+			<li>Success metric: bring customer support call volume down a third (Phase 1).</li>
 		</ul>
 	</div>
 </div>
@@ -48,7 +48,7 @@ permalink: cancel-trip
 	</div>
 	<div class="column">
 		<h4>Mapping out Scenarios</h4>
-		<p>I mapped out a task flow to understand how the cancellation policy would affect renters in various scenarios.</p>
+		<p>Working with the customer support team and their established cancellation fee policies, I mapped out a task flow (see above) to understand how the cancellation policy would affect renters in various scenarios and what information we would need to display.</p>
 		<h4>Scenarios:</h4>
 		<ul>
 			<li>The renter wants to cancel their trip 24hrs or more before it starts OR less than an hour after they booked it.</li>
@@ -75,9 +75,9 @@ permalink: cancel-trip
 <div class="row copy-row">
 	<div class="single-column">
 		<h4>A Dropdown Menu</h4>
-		<p>After testing with paper prototypes, it became clear that there were too many actions on a single screen. Instead of having several actions scattered, I tried a different approach: gathering all trip actions into a single dropdown menu. With this new idea, I created wireframes which tested successfully on UsabilityHub.</p>
+		<p>After testing with paper prototypes, it became clear that there were too many actions on a single screen. Instead of having several actions scattered, I tried a different approach: gathering all trip actions into a single dropdown menu. While we knew it buried the button and made it a tiny bit harder to discover, we knew we it would move us forward faster and have immediate impact. We also knew that we needed to address the layout and information architecture of this trip screen holistically (as a separate project) to improve the learnability and discoverability of all of the content and actions.</p>
 		<h4>Understanding cancellation reasons, fees, and policies</h4>
-		<p>In order to keep a balanced peer-to-peer carsharing marketplace, there must be a set of fees and policies. As a business goal, this feature would collect a different set of fees based on our policies. This meant renters would need a clear understanding of refund amounts.</p>
+		<p>Getaround has an established set of policies and fees that ensures car owners are reimbursed adequately for lost compensation due to cancellation and encourages renters to cancel trips in a timely manner so that cars may still be rented by someone else–this ensures a balanced peer-to-peer carsharing marketplace. To maintain this balance, this feature would collect a different set of fees depending on when the user decides to cancel the trip. This meant renters would need a clear understanding of refund amounts.</p>
 		<p>It was important to collect information that would describe why cancellations were happening. This insight could help identify problems or even opportunities in the future.</p>
 		<h4>After the Trip has Started</h4>
 		<p>It was important to keep this action accessible even outside of the  cancellation period. Instead of hiding the feature and potentially confusing the renter, we prompt them to call customer support to help them with problems they might encounter once a trip has started.</p>
@@ -93,7 +93,7 @@ permalink: cancel-trip
 		<h3>Outcome</h3>
 		<p>Final Deliverables and Conclusion</p>
 	</div>
-	<div class="column">
+<div class="column">
 		<h4>Screen Flows</h4>
 		<p>After creating high fidelity comps, I created screen flows that documented all of the scenarios and interactions that a renter would experience. This deliverable was used for engineering implementation.</p>
 		<h4>Learnings</h4>
