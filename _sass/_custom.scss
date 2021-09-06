@@ -74,7 +74,7 @@ h1 {
 h2 {
 	color: $gray;
 	font-family: $ckf-sans;
-	font-size: 6em;
+	font-size: 4.5em;
 	font-weight: 900;
 	margin-top: 0;
 	@media (min-width: $mqA){
@@ -142,7 +142,7 @@ LAYOUT
 
 		@media (max-width: $mqA) {
 			overflow: hidden;
-			padding: 0 4vh;
+			padding: 0 2.5vh;
 		}
 }
 
@@ -183,6 +183,18 @@ LAYOUT
 main.row {
 	flex: 1;
 	padding-top: 0;
+}
+
+main {
+	& > .grid-row:nth-of-type(2n+2) {
+		flex-flow: column-reverse;
+	}
+
+	@media (min-width: $mqA) {
+		& > .grid-row:nth-of-type(1n) {
+			flex-flow: row;
+		}
+	}
 }
 
 .vh-96 {
@@ -308,7 +320,7 @@ CUSTOM CONTENT STYLES
 	}
 
 	p {
-		font-size: 4em;
+		font-size: 3.5em;
 		line-height: 1.5em;
     margin: 30px auto 0;
 		padding: 0
@@ -321,7 +333,8 @@ CUSTOM CONTENT STYLES
 			padding: 0 3.5em 0 0;
 		}
 		p {
-				padding: 0 8em 0 0;
+			font-size: 4em;
+			padding: 0 8em 0 0;
 		}
 	}
 
@@ -482,13 +495,20 @@ CUSTOM CONTENT STYLES
 	}
 }
 
+.grid-row {
+	padding: 3em 0;
+	@media (min-width: $mqA) {
+		padding: 0;
+	}
+}
+
 .w50 {
 	align-items: flex-end;
 	height: 48vh;
 	display: flex;
 	flex: 1;
-	margin: 3rem 0;
 	position: relative;
+
 
 	@media (min-width: $mqA) {
 		align-items: center;
@@ -500,10 +520,14 @@ CUSTOM CONTENT STYLES
 .grid-img {
 	height: auto;
 	max-height: 120%;
-	position: absolute;
 	width: auto;
 	max-width: 100%;
 	top: 0;
+
+	@media (min-width: $mqA) {
+		position: absolute;
+	}
+
 
 	&.no-float {
 		height: auto;
@@ -523,7 +547,7 @@ CUSTOM CONTENT STYLES
 }
 
 .grid-row:nth-of-type(2n+1) {
-	@media (max-width: $mqA) {
+	@media (min-width: $mqA) {
 		flex-flow: column-reverse;
 	}
 
@@ -614,8 +638,13 @@ CUSTOM CONTENT STYLES
 h3 {
 	font-family: $ckf-serif;
 	font-weight: 300;
-	font-size: 3em;
+	font-size: 2.5em;
 	line-height: 1.5em;
+
+	@media (min-width: $mqA) {
+		font-size: 3em;
+	}
+
 }
 
 
